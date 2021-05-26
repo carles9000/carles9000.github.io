@@ -1,0 +1,15 @@
+[
+  {
+    "folder": "basic",
+    "description": "basic example"
+  },
+  {
+    "folder": "basic_controller",
+    "description": "basic example with controller managment"
+  },
+  {
+    "folder": "basic_app",
+    "description": "basic example of app"
+  }
+]
+
