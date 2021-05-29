@@ -10,6 +10,10 @@
   {
     "folder": "basic_app",
     "description": "basic example of app"
-  }
+  },
+  {
+    "folder": "beacon_basic",
+    "description": "basic example of Beacon with Mercury"
+  } 
 ]
 
