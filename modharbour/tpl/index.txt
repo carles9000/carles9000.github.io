@@ -8,12 +8,36 @@
     "description": "basic example with controller managment"
   },
   {
+    "folder": "basic_controller_response",
+    "description": "Example different output from controller"
+  },
+  {
+    "folder": "basic_controller_to_view",
+    "description": "How to send different parameteres to the view"
+  },
+  {
+    "folder": "basic_controller_validator",
+    "description": "Example how manage validator whne we receive parameters"
+  },
+  {
+    "folder": "basic_token",
+    "description": "Example how manage token"
+  },
+  {
     "folder": "basic_app",
-    "description": "basic example of app"
+    "description": "Basic scheme of an MVC application with authentication"
+  }, 
+  {
+    "folder": "basic_app_model",
+    "description": "Basic scheme of an MVC application with authentication and model data use"
+  },  
+  {
+    "folder": "basic_app_mysql",
+    "description": "Basic scheme of an MVC application with authentication and Dbf & Mysql"
   },
   {
     "folder": "beacon_basic",
-    "description": "basic example of Beacon with Mercury"
-  } 
+    "description": "Use Beacon with Mercury" 
+  }
 ]
 
