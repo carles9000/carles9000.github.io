@@ -1,43 +1,52 @@
 [
   {
     "folder": "basic",
+	"level": "easy",
     "description": "basic example"
   },
   {
     "folder": "basic_controller",
+	"level": "easy",	
     "description": "basic example with controller managment"
   },
   {
     "folder": "basic_controller_response",
+	"level": "easy",	
     "description": "Example different output from controller"
   },
   {
     "folder": "basic_controller_to_view",
+	"level": "easy",	
     "description": "How to send different parameteres to the view"
   },
   {
     "folder": "basic_controller_validator",
-    "description": "Example how manage validator whne we receive parameters"
+	"level": "easy",	
+    "description": "Example how manage validator when we receive parameters"
   },
   {
     "folder": "basic_token",
+	"level": "easy",	
     "description": "Example how manage token"
   },
   {
     "folder": "basic_app",
+	"level": "medium",	
     "description": "Basic scheme of an MVC application with authentication"
   }, 
   {
     "folder": "basic_app_model",
+	"level": "medium",	
     "description": "Basic scheme of an MVC application with authentication and model data use"
   },  
   {
     "folder": "basic_app_mysql",
+	"level": "medium",	
     "description": "Basic scheme of an MVC application with authentication and Dbf & Mysql"
   },
   {
     "folder": "beacon_basic",
+	"level": "easy",	
     "description": "Use Beacon with Mercury" 
   }
 ]
-
