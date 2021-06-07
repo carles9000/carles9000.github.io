@@ -45,6 +45,11 @@
     "description": "Basic scheme of an MVC application with authentication and Dbf & Mysql"
   },
   {
+    "folder": "tweb_basic",
+	"level": "medium",	
+    "description": "Use TWeb with Mercury"
+  },  
+  {
     "folder": "beacon_basic",
 	"level": "easy",	
     "description": "Use Beacon with Mercury" 
