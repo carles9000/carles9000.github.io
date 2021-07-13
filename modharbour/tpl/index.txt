@@ -58,5 +58,10 @@
     "folder": "basic_ws",
 	"level": "medium",	
     "description": "WebService example" 
-  }   
+  },
+  {
+    "folder": "boostrap",
+	"level": "medium",	
+    "description": "Bootstrap example and Curl" 
+  }  
 ]
