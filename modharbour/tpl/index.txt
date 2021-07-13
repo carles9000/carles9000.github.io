@@ -51,7 +51,7 @@
   },  
   {
     "folder": "beacon_basic",
-	"level": "easy",	
+	"level": "medium",	
     "description": "Use Beacon with Mercury" 
   },
   {
