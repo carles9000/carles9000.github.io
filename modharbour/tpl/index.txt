@@ -62,6 +62,7 @@
   {
     "folder": "bootstrap",
 	"level": "medium",	
-    "description": "Bootstrap example and Curl" 
+    "description": "Bootstrap example and CUrl" 
   }  
+  
 ]
