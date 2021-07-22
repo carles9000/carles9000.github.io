@@ -60,7 +60,7 @@
     "description": "WebService example" 
   },
   {
-    "folder": "boostrap",
+    "folder": "bootstrap",
 	"level": "medium",	
     "description": "Bootstrap example and Curl" 
   }  
