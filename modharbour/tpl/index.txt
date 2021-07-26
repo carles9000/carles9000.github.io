@@ -57,8 +57,13 @@
   {
     "folder": "basic_ws",
 	"level": "medium",	
-    "description": "WebService example" 
+    "description": "WebService example. Autentication" 
   },
+  {
+    "folder": "basic_ws_xml",
+	"level": "medium",	
+    "description": "WebService example with output xml or json. No autentication" 
+  },  
   {
     "folder": "bootstrap",
 	"level": "medium",	
