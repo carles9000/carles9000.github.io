@@ -65,6 +65,11 @@
     "description": "WebService example with output xml or json. No autentication" 
   },  
   {
+    "folder": "basic_menu",
+	"level": "medium",	
+    "description": "Example use pluggin sidebar menu" 
+  },   
+  {
     "folder": "bootstrap",
 	"level": "medium",	
     "description": "Bootstrap example and CUrl" 
