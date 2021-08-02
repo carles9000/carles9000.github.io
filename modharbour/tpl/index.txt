@@ -68,7 +68,12 @@
     "folder": "basic_menu",
 	"level": "medium",	
     "description": "Example use pluggin sidebar menu" 
-  },   
+  }, 
+  {
+    "folder": "tweb_crud",
+	"level": "medium",	
+    "description": "CRUD example with TWeb. Browse" 
+  },  
   {
     "folder": "bootstrap",
 	"level": "medium",	
