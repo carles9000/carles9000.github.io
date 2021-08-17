@@ -45,6 +45,11 @@
     "description": "Basic scheme of an MVC application with authentication and Dbf & Mysql "
   },
   {
+    "folder": "basic_login",
+	"level": "medium",	
+    "description": "Login from basic_app example using Bootstrap and TWeb"
+  },  
+  {
     "folder": "tweb_basic",
 	"level": "medium",	
     "description": "Use TWeb with Mercury"
