@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="icon" href="images/mini-mercury.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Carles9000</title>
+  </head>
+  <style>
+	body { margin:10px; }
+	.logo {/*
+		float:right;
+		height:40px;
+		*/
+	}
+	.anima {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	
+img, h2 {
+  vertical-align: middle;
+  display: inline-block;
+}
+h2 {
+vertical-align: bottom;	
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 40px;	
+}
+.mytext {
+ /*font-size: calc(1em + 1vw) */
+}
+  </style>
+  <body>
+	<div >
+		<img src="images/mini-modharbour.png" class="logo" />
+
+		<h2>modHarbour, are you ready ?</h2>
+		<hr>
+	
+	
+	</div>
+	<div class="container">
+
+		<div class="mytext">	
+			I am happy to be able to group all the resources on this page
+the result of many months of programming and research that
+has allowed harbour to be brought to the web in a professional way.
+This page is intended to be a point of reference to be able to download
+everything you need to start programming in the modHarbour environment.
+			<br><br>
+			You can download the repository from <a href="https://github.com/carles9000/modharbour.app" >
+			https://github.com/carles9000/modharbour.app</a> 
+			
+				<br><br>
+				<ul>
+					<li>mod</li>					
+						<ul><li>Win64 Version</li></ul>
+					<li>lib</li>
+						<ul>
+							<li>Mercury</li>
+							<li>TWeb</li>
+						</ul>
+					<li>md</li>
+						<ul><li>md.hrb - Mercury Developer</li></ul>
+				</ul>										
+
+			
+			In this link you can find all the information related to modHarbour,
+its history, links, explanations, ... that will help you understand
+to be able to jump to the web
+			<br><br>
+				<div>
+				<img src="images/brujula.ico" style="margin-top: -5px;" ></img>&nbsp;&nbsp;<a href="https://modharbour.app/compass" target="_blank">https://modharbour.app/compass</a>
+				</div>
+			<br>
+			Unquestionably we have already taken the first step to be able to take our
+prg's to the web in a solid and robust way. 
+			
+		</div>
+		<br>
+		<div>
+			<img src="images/mvc.gif" class="anima"/>
+		</div>
+		
+	</div>
+
+
+  </body>
+</html>

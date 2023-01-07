@@ -1,96 +1,163 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
 	<link rel="icon" href="images/mini-mercury.png">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <title>Carles9000</title>
+	<meta charset="utf-8">	
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<meta name="description" content="UHttpd2 - Servidor Harbour para Web. Crea de manera rápida y fácil una aplicacion web."> 
+	<meta name="description" content="UHttpd2 - Harbour Web Server. Quickly and easily create a web application."> 
+	<meta name="keywords" content="uhttpd2, httpd2, harbour, web, modharbour, framework">
+	<meta name="Author" content="Carles Aubia Floresvi">
+	<meta name="Generator" content="uhttpd2">	
+
+	<meta property="og:type" content="software">
+	<meta property="og:url" content="https://github.com/carles9000">
+	<meta property="og:site_name" content="UHTTPD2">
+	<meta property="og:title" content="Server UHTTPD2">
+	<meta property="og:description" content="UHttpd2 - Harbour Web Server. Quickly and easily create a web application">
+	<meta property="og:image" content="https://raw.githubusercontent.com/carles9000/pool/master/logos/mini-mercury.png">	
+	
+	
+
+	
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+	
+	<link rel="stylesheet" href="lib/jstree/themes/default/style.min.css" />
+	<script src="lib/jstree/jstree.min.js"></script>	
+	
+    <title>Uhttpd2</title>
   </head>
   <style>
 	body { margin:10px; }
-	.logo {/*
-		float:right;
-		height:40px;
-		*/
-	}
-	.anima {
-		width: 50%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;	
+	#title { 
+		height: 115px;
+		overflow: hidden;
 	}
 	
-img, h2 {
-  vertical-align: middle;
-  display: inline-block;
-}
-h2 {
-vertical-align: bottom;	
-	margin-left: 20px;
-	margin-bottom: 10px;
-	font-family: 'Indie Flower', cursive;
-    font-weight: bold;
-    font-size: 40px;	
-}
-.mytext {
- /*font-size: calc(1em + 1vw) */
-}
-  </style>
-  <body>
-	<div >
-		<img src="images/mini-modharbour.png" class="logo" />
+	#title img{
+		height:85px;				
+		vertical-align: middle;
+	}
 
-		<h2>modHarbour, are you ready ?</h2>
-		<hr>
+	h2 {
+	  display: inline-block;
+		vertical-align: bottom;	
+		margin-left: 20px;
+		margin-bottom: 18px;
+		/*font-family: 'Indie Flower', cursive;*/
+		font-family: 'Comfortaa', cursive;
+		font-weight: bold;
+		font-size: 40px;	
+	}
 	
+	.mycontainer {
+		min-width: 200px;
+		right: 10px;
+		left: 10px;
+		top: 122px;
+		position: absolute;
+		bottom: 50px;   
+		display: inline-flex;
+		overflow: hidden;
+		/*border:3px solid green;*/
+	}
+
+	#mytree {
+		overflow-y: auto;
+		/*border:1px solid red;*/
+		width:400px;
+		float:left;
+		font-family: tahoma;
+		font-size: 14px;
+	}
+
+	#mybody {
+		width: 100%;
+		margin-left: 5px;
+		/*border: 1px solid blue;*/
+		margin-right: 5px;
+	}
+
+	#footer {
+		background-color: #e3e3e3;
+		height:31px;
+		border:1px solid gray;
+		position:fixed;
+		left:10px;
+		right:10px;
+		bottom: 10px;
+		box-shadow: 5px 5px 5px gray;
+		border-radius: 5px;
+	}
 	
+	.myiframe {	    		
+		width: 100%;
+		height: 100%;
+		border:0px solid black;
+	}	
+	.es_pdf {
+		width: 100%;
+		height: 100%;
+		padding:0;
+		margin:0;
+	}
+	
+	#search {
+		float: left;
+		margin-left: 5px;
+		margin-top: 4px;
+		font-family: Tahoma;
+		font-size: 14px;
+	}
+	
+	#tree_search {
+	
+	}
+	
+	#author {
+		float: right;
+		margin-top: 7px;
+		margin-right: 5px;
+		font-family: Tahoma;
+		font-size: small;
+	}
+
+</style>
+<body>
+	<div id="title">
+		<img src="images/mini-httpd2.png" class="logo" />
+
+		<h2>Uhttpd2, are you ready ?</h2>
+		<hr>		
 	</div>
-	<div class="container">
 
-		<div class="mytext">	
-			I am happy to be able to group all the resources on this page
-the result of many months of programming and research that
-has allowed harbour to be brought to the web in a professional way.
-This page is intended to be a point of reference to be able to download
-everything you need to start programming in the modHarbour environment.
-			<br><br>
-			You can download the repository from <a href="https://github.com/carles9000/modharbour.app" >
-			https://github.com/carles9000/modharbour.app</a> 
-			
-				<br><br>
-				<ul>
-					<li>mod</li>					
-						<ul><li>Win64 Version</li></ul>
-					<li>lib</li>
-						<ul>
-							<li>Mercury</li>
-							<li>TWeb</li>
-						</ul>
-					<li>md</li>
-						<ul><li>md.hrb - Mercury Developer</li></ul>
-				</ul>										
+	<div class="mycontainer">
+	
+		<div id="mytree"></div>
+		<div id="mybody"></div>
 
-			
-			In this link you can find all the information related to modHarbour,
-its history, links, explanations, ... that will help you understand
-to be able to jump to the web
-			<br><br>
-				<div>
-				<img src="images/brujula.ico" style="margin-top: -5px;" ></img>&nbsp;&nbsp;<a href="https://modharbour.app/compass" target="_blank">https://modharbour.app/compass</a>
-				</div>
-			<br>
-			Unquestionably we have already taken the first step to be able to take our
-prg's to the web in a solid and robust way. 
-			
-		</div>
-		<br>
-		<div>
-			<img src="images/mvc.gif" class="anima"/>
-		</div>
+
 		
 	</div>
+	
+	<div id="footer">
+		<div id="search">
+			Search
+			<input id="tree_search" value=""></input>
+		</div>
+		<div id="author">&copy; Carles Aubia 2020-2023</div>
+	</div>
+
+</body>
 
 
-  </body>
+<script src="lib/app.min.js"></script>
+
 </html>
