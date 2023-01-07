@@ -7,6 +7,7 @@
    { "id" : "110"	, "parent" : "100", "text" : "Compilar App y UHttpd2", "icon" : "images/clip.png", "data" : "doc/compile-uhttpd2.pdf" },
    { "id" : "200"	, "parent" : "0", "text" : "TWeb" },
    { "id" : "210"	, "parent" : "200", "text" : "Compilar UHttpd2 y TWeb", "icon" : "images/clip.png", "data" : "doc/compile-tweb.pdf" },
+   { "id" : "300"	, "parent" : "0", "text" : "Pildoras", "icon" : "images/clip.png", "data" : "htm/pildoras.htm" },
    { "id" : "500"	, "parent" : "1", "text" : "Documentacion" },
    { "id" : "501"	, "parent" : "1", "text" : "Amigos Harbour" },
    { "id" : "510"	, "parent" : "500", "text" : "Harbour github doc", "icon" : "images/link.png", "data" : "https://harbour.github.io/doc/" },
