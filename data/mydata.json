@@ -6,8 +6,9 @@
    { "id" : "115"	, "parent" : "100", "text" : "¿Como funciona?", "icon" : "images/clip.png", "data" : "htm/comofunciona.htm" },
    { "id" : "200"	, "parent" : "0", "text" : "TWeb" },
    { "id" : "210"	, "parent" : "200", "text" : "Compilar UHttpd2 y TWeb", "icon" : "images/pdf.png", "data" : "doc/compile-tweb.pdf" },
-   { "id" : "215"	, "parent" : "200", "text" : "1-Diseño de pantallas", "icon" : "images/youtube.png", "data" : "htm/you-twebdessign.html" },
-   { "id" : "220"	, "parent" : "200", "text" : "2-Conectar Pantalla a la API", "icon" : "images/youtube.png", "data" : "htm/you-tweblive.html" },
-   { "id" : "225"	, "parent" : "200", "text" : "3-Conectar API via Javascript", "icon" : "images/youtube.png", "data" : "htm/you-twebapijs.html" },
+   { "id" : "215"	, "parent" : "200", "text" : "Inicio rápido", "icon" : "images/clip.png", "data" : "htm/tweb_template.htm" },
+   { "id" : "220"	, "parent" : "200", "text" : "1-Diseño de pantallas", "icon" : "images/youtube.png", "data" : "htm/you-twebdessign.html" },
+   { "id" : "225"	, "parent" : "200", "text" : "2-Conectar Pantalla a la API", "icon" : "images/youtube.png", "data" : "htm/you-tweblive.html" },
+   { "id" : "230"	, "parent" : "200", "text" : "3-Conectar API via Javascript", "icon" : "images/youtube.png", "data" : "htm/you-twebapijs.html" },
    { "id" : "300"	, "parent" : "0", "text" : "Pildoras", "icon" : "images/clip.png", "data" : "htm/pildoras.htm" }   
 ]
