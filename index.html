@@ -20,7 +20,7 @@
 	<meta property="og:site_name" content="UHTTPD2">
 	<meta property="og:title" content="Server UHTTPD2">
 	<meta property="og:description" content="UHttpd2 - Harbour Web Server. Quickly and easily create a web application">
-	<meta property="og:image" content="https://raw.githubusercontent.com/carles9000/pool/master/logos/mini-httpd2b.png">			
+	<meta property="og:image" content="https://raw.githubusercontent.com/carles9000/pool/master/logos/mini-mercury.png">			
 	
 	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
 	
@@ -125,6 +125,30 @@
 		font-family: Tahoma;
 		font-size: small;
 	}
+	
+
+	.delimitador{
+		/*width:560px;*/
+		width: 100%;
+		margin:auto;
+	}
+	
+	.contenedor{
+		height:0px;
+		width:100%;
+		max-width:560px; 
+		padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+		position:relative;
+	}
+
+	video{
+		position:absolute;
+		height:100%;
+		width:100%;
+		top:0px;
+		left:0px;
+	}
+	
 
 </style>
 <body>
@@ -134,15 +158,24 @@
 		<h2>Uhttpd2, are you ready ?</h2>
 		<hr>		
 	</div>
-
 	<div class="mycontainer">
 	
 		<div id="mytree"></div>
-		<div id="mybody"></div>
 
-
+		<div id="mybody">
 		
-	</div>
+			<div class="delimitador">
+				<div class="contenedor">					
+					<video autoplay="autoplay" loop="loop" muted="">
+						<source src="images/uhttpd2.mp4" type="video/mp4">
+					</video>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+	</div>				
 	
 	<div id="footer">
 		<div id="search">
