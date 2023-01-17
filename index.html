@@ -166,8 +166,9 @@
 		<div id="mybody">
 		
 			<div class="delimitador">
-				<div class="contenedor">					
-					<video autoplay="autoplay" loop="loop" muted="" controls="controls">
+				<div class="contenedor">	
+
+					<video id="myvideo" autoplay="autoplay" loop="loop" mute="" controls="controls">
 						<source src="images/uhttpd2.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -187,6 +188,43 @@
 	</div>
 
 </body>
+
+<script>
+	/*
+	document.addEventListener("DOMContentLoaded", function(event) {
+		var video = document.getElementById("myvideo");
+			video.muted = false;
+		*/
+
+			/*
+				video.volume =1
+				video.muted = false;
+		const promise = video.play();
+		if(promise !== undefined){
+			promise.then(() => {
+				//video.muted = false;
+				// Autoplay started
+				console.log(1)
+			}).catch(error => {
+				console.log(2)
+				// Autoplay was prevented.
+				video.muted = false;
+				video.play();
+			});
+		}*/
+		
+		/*
+		video.oncanplaythrough = function() {
+			//video.muted = true;
+			video.play();
+			video.pause();
+			//video.muted = false;
+			video.play();	
+		}
+		*/
+		
+	//});
+</script>
 
 
 <script src="lib/app.min.js"></script>
