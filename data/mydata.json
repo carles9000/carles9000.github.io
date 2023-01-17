@@ -12,4 +12,5 @@
    { "id" : "230"	, "parent" : "200", "text" : "3-Conectar API via Javascript", "icon" : "images/youtube.png", "data" : "htm/you-twebapijs.html" },
    { "id" : "235"	, "parent" : "200", "text" : "4-Conectar Javascript via API", "icon" : "images/youtube.png", "data" : "htm/you-twebjsapi.html" },
    { "id" : "300"	, "parent" : "0", "text" : "Pildoras", "icon" : "images/clip.png", "data" : "htm/pildoras.htm" }   
+   { "id" : "305"	, "parent" : "0", "text" : "Chat", "icon" : "images/chat.png", "data" : "htm/contact.htm" }   
 ]
