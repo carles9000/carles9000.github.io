@@ -27,7 +27,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
 	
 	<link rel="stylesheet" href="lib/jstree/themes/default/style.min.css" />
-	<script src="lib/jstree/jstree.min.js"></script>	
+	<script src="lib/jstree/jstree.min.js"></script>
+	
 	
     <title>Uhttpd2</title>
   </head>
@@ -150,6 +151,14 @@
 		left:0px;
 	}
 	
+	#imgmsg {
+		float: right;
+       	width: 50px;
+		height: auto !important;
+		margin-top: 30px;
+		cursor: pointer;
+	}
+	
 
 </style>
 <body>
@@ -157,6 +166,7 @@
 		<img src="images/mini-httpd2.png" class="logo" />
 
 		<h2>Uhttpd2, are you ready ?</h2>
+			<img id="imgmsg" src="images/send.png" onclick="mymsg()"></img>
 		<hr>		
 	</div>
 	<div class="mycontainer">
@@ -189,6 +199,6 @@
 
 </body>
 
-<script src="lib/app.min.js"></script>
+<script src="lib/app.min.js"></script>	
 
 </html>

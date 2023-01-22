@@ -1,0 +1,39 @@
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+	<script src="../../lib/appmsg.min.js"></script>
+</head>
+<style>
+	body {
+		font-family: sans-serif;
+	}
+	#container {
+		text-align: center;			
+	}
+	
+	#msg {
+		text-align:left;
+		
+	}
+	
+	.mybtn {
+		height: 40px;
+		background-color: #cbcbcb;
+		border-radius: 5px;
+	}
+</style>
+<h2>Hola !</h2><hr>
+
+<div id="container">
+	<h3>Si tienes alguna sugerencia, mensaje positivo o simplemente quieres dar ánimos al proyecto, sientete libre !</h3>
+
+	<span id="msglabel" for="w3review">Mensaje</span>
+	<br>
+
+	<textarea id="msg" name="w3review" rows="4" cols="50" placeholder="Tu mensaje... (Max. 240 char.)" maxlength="240"></textarea>
+	<br>
+	<br>
+	<button id="btnsend" class="mybtn" onclick="sendMsg()">Enviar mensaje</button>
+</div>
+
+</html>
