@@ -31,5 +31,5 @@
    
    { "id" : "520"	, "parent" : "502", "text" : "Bucaneros (TheFull)", "icon" : "images/pdf.png", "data" : "doc/extern/bucaneros.pdf" },
    { "id" : "521"	, "parent" : "502", "text" : "Hilos en Harbour (TheFull)", "icon" : "images/pdf.png", "data" : "doc/extern/hilosenharbour.pdf" },
-   { "id" : "522"	, "parent" : "502", "text" : "Manual Harbour (A. Garate)", "icon" : "images/pdf.png", "data" : "doc/extern/manualharbour.pdf" }
+   { "id" : "522"	, "parent" : "502", "text" : "Lenguaje C para Harbour (Manu)", "icon" : "images/pdf.png", "data" : "doc/extern/bucaneros2.pdf" }
 ]
