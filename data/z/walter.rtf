@@ -1,0 +1,83 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe3082{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f16\froman\fcharset238\fprq2 Times New Roman CE;}{\f17\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f19\froman\fcharset161\fprq2 Times New Roman Greek;}{\f20\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f21\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f22\fswiss\fcharset238\fprq2 Arial CE;}{\f23\fswiss\fcharset204\fprq2 Arial Cyr;}{\f25\fswiss\fcharset161\fprq2 Arial Greek;}{\f26\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f27\fswiss\fcharset186\fprq2 Arial Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;
+\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar\adjustright \fs20\lang3082\cgrid \snext0 Normal;}{\*\cs10 \additive 
+Default Paragraph Font;}}{\info{\author Carles Aubia}{\operator Carles Aubia}{\creatim\yr2004\mo3\dy25\hr11\min57}{\revtim\yr2004\mo3\dy25\hr13\min6}{\version12}{\edmins69}{\nofpages4}{\nofwords1093}{\nofchars6233}{\*\company Bayer Iberia}
+{\nofcharsws7654}{\vern113}}\margl1701\margr1701\margt1417\margb1417 \widowctrl\ftnbj\aenddoc\hyphhotz425\hyphcaps0\viewkind4\viewscale100 \fet0\sectd \linex0\headery709\footery709\colsx709\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang
+{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}
+{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9
+\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \sb100\sa100\nowidctlpar\adjustright \fs20\lang3082\cgrid {\fs24\cgrid0 Carles:
+\par Esta discusi\'f3n se esta poniendo buena. :-))\line Cuanto m\'e1s escribamos, mejores conclusiones vamos a poder sacar para nosotros y para cualquier otro que lea estos posts.
+\par Quiero, que a pesar de estar en el equipo de desarrollo de xHarbour, y que muchas veces me sale un poco la defensa como a un hijo, espero poder ser los m\'e1s imparcial posible y dar mi opinion desde mi punto de vista de uso del xHarbour.
+\par A mi me gusta hablar mucho del PCODE, porque es al fin y al cabo lo que el coraz\'f3n de todos ejecutables hechos con Clipper, C3, Harbour y xHarbour, terminan ejecutando.
+\par Mi opini\'f3n es que cuanto m\'e1s conocemos de como trabaja internamente el n\'facleo del 
+\par 
+\par ejecutable, y cuanto m\'e1s conocemos de que c\'f3digo genera tal o cual rutina, expresi\'f3n o comando, vamos a tener mejores herramientas para decidir usar un comando u otro.
+\par Probablemente sea despreciable el usar la funci\'f3n ADEL solo o ADEL y ASIZE si se usa una sola vez en todo el programa, pero si tu rutina es cr\'edtica, seguramente vas a obtener una mejor performance en usar la versi\'f3n optimizada.
+\par No lo dije antes, porque el texto se estaba haciendo muy largo, pero yo he optimizado todas las principales clases de FWH con xHarbour y aqui es donde se nota la diferencia.\line Porque cuando trabajas con rutinas que son llama
+das muchas veces y optimizas aunque sea muy poco, la suma de esos pocos es lo que termina haciendo la diferencia de performance.
+\par Es veradad que tenemos ciertas limitaciones, y coincido contigo en que algunas veces tenemos que recurrir a hacer DLLs externas. \line Es verdad y lo he hecho y no estoy en desacuerdo con hacerlo.\line Hoy tenemos que trabajar de la manera m\'e1s \'f3
+ptima y r\'e1pida posible y muchas veces eso implica reutilizar c\'f3digo o DLLs que ya sabemos que funcionan, para que vamos a reinventar la rueda?\line Pero 
+si tengo la posibilidad de usarlo desde dentro de mi lenguaje y no tengo que recurrir a cosas externas, tambi\'e9n estoy de esa parte.
+\par "...Imaginate q te sale el a\'f1o q viene un grupo q empieza el zHarbour con mas extensiones, optimizaciones, ... -> Te vas a cambiar x q es lo ultimo ?"\line No me voy a cambiar porque es lo \'faltimo, en todo caso lo evaluar\'e9
+ y si es compatible con lo que tengo actualmente y si me d\'e1 mejores prestaciones que las actuales, seguro que me pasar\'e9.\line Pero si es lo \'faltimo y tengo que tirar a la basura todo mi c\'f3digo, probablemente lo piense bastante.
+\par Volviendo al tema de crear uno sus propios PCODE y otras optimizaciones.\line Puede parecer algo inalcanzable, yo tambien lo cre\'eda as\'ed hasta que me puse a leer del tema y luego de algunos prueba y error le encontr\'e9 la vuelta.\line Si alguien est
+\'e1 interesado, aunque m\'e1s no sea a conocer un poco m\'e1s, que lo haga saber.\line Y este tema no es m\'e1s dificil que programar en C, solo es diferente.
+\par A que quiero llegar con esto?\line Hace poco hubo mucha queja respecto de la baja del foro en espa\'f1ol en las news de xHarbour.\line Pero aunque no estoy de acuerdo con la desici\'f3n, me apena que existan tan pocos desarrolladores de habla hispana.
+
+\par Un articulo sobre PCODE.\line http://www.puertosur.org/modules.php?name=Sections&op=viewarticle&artid=8
+\par Manual de Bison.\line http://www.linux.org.ar/LuCAS/Manuales-LuCAS/BISON/bison-es-1.27.pdf
+\par Manual de Flex.\line http://www.linux.org.ar/LuCAS/Manuales-LuCAS/FLEX/flex-es-2.5.pdf
+\par Posted by: }{\fs24\ul\cf2\cgrid0 Walter Negro <mailto:anegro@overnet.com.ar>}{\fs24\cgrid0  en: Abril 24, 2004 12:10 AM 
+\par }\pard \nowidctlpar\adjustright {\f1\cgrid0 
+\par 
+\par 
+\par 
+\par 
+\par *----------------------------------------------------
+\par 
+\par W, 
+\par 
+\par }\pard \sb100\sa100\nowidctlpar\adjustright {\f1\cgrid0 \ldblquote }{\fs24\cgrid0 Cuanto m\'e1s escribamos, mejores conclusiones vamos a poder sacar para nosotros y para cualquier otro que lea estos posts.\rdblquote  -> De eso se trata.
+\par \ldblquote A mi me gusta hablar mucho del PCODE,..\rdblquote  -> ya se nota :-)
+\par \ldblquote Probablemente sea despreciable el usar la funci\'f3n ADEL solo o ADEL y ASIZE si se usa una sola vez en todo el programa, pero si tu rutina es cr\'edtica, seguramente vas a obtener una mejor performance en usar la versi\'f3n optimizada.
+\rdblquote 
+\par Este punto es muy interesante, no por el uso de estas funciones en si, sino por el concepto en general. En aquel caso puntual, q necesito una optimizacion dr\'e1stica, \'bf q tendr\'e9 q evaluar \'bf
+? reoptimizar la funcion, realizar un nuevo analisis funcional en la propia aplicaci\'f3
+n?  las dos son soluciones q si bien la primera parece una optimizacion del kernel en si, deriva a posibles bugs y falta d estabilizacion, descontrolado muchas veces. Me expreso: Tengo cuatro patas:
+\par 1.- Un compilador (x)Harbour 
+\par 2.- Un compilador BCC
+\par 3.- Una libreria para windows FWH
+\par 4.- El programa q uno realiza.
+\par Con FW yo he tenido la fatal experiencia de ver crecer al \lquote bicho\rquote . Un producto q funcionaba, pero tenia muchos bugs. Con el tiempo se ha ido estabilizando gracias en parte a la contribucion de mu
+chos usuarios, pero a la vez est contribucion originaba mas bugs, x q muchas fucniones afectaban a otras, o cambiaban el comportamiento de clases, y x q? por falta de coordinaci\'f3
+n en general. Si tu preguntabas a los responsables de FW/H a veces te contestaban: a mi el ejemplo me funciona, q version utilizas tu?. Entre una version diferente  a la \lquote oficial\rquote 
+, con diferentes parcheados, modificaciones, ... al final uno se volvia loco. Con el tiempo, se ha ido estabilizando pero -> \lquote a\'f1os... de procesion\rquote .
+\par Ahora a\'f1
+ade a esta historia, q paralelamente se hace lo mismo con un compilador como (x)H, el cual constantemente se va mejorando (cierto), pero a su vez tiene muchos cambios q afectan al programador final, ademas sin contar p.e., con distribuciones de Fivetech 
+x un lado, OZS x otro, la q hay en el CVS, la q venden unos, la q tocan los otros.... 
+\par Imaginate x un momento q la BCC tambien se fuera tocando x aqui y x alla. Quizas algun programa q tengo q funcione perfectamente, si lo compilara de nuevo -> crash \'a1!
+\par Cr
+eo q lo mejor es tener una base solida de trabajo: En mi caso Borland C++ 5, mas Harbour distribuido x Fivetech y FWH. A partir de aqui yo tengo mi set de librerias, creadas, testeadas y de uso habitual. Con este marco, y volviendo a tu comentario sobre m
+omentos criticos de un programa en q necesitas un ajuste fino, \'bfQ tocamos? yo soy partidario del programa en si.
+\par \ldblquote Hoy tenemos que trabajar de la manera m\'e1s \'f3ptima y r\'e1pida posible...\rdblquote  -> En mi caso es asi, y necesito unas herramientas ademas fiables para conseguirlo
+\par \ldblquote ...y muchas veces eso implica reutilizar c\'f3digo o DLLs...\rdblquote 
+ -> Bueno, pero parece q sea una mancha negra en el expediente del programa, y creo q no es asi. Si x cualquier motivo tienes q recurrie a otras estrategias q se adpatan bien a tu trabajo sin \lquote romper\rquote 
+ tu entorno x q no?. El caso de los OCX, q muchos dicen q si Patick Fun usa la tactica de usar una dll externa hecha con Delphy, para acceder a estos controles. Me parece genial y una manera elegante de solucionar un problema q uno tiene hasta ahora. \'bf
+Q te gustaria poderlo hacer desde tu propio lenguaje? claro q si, pero a falta de pan buenas son tortas. Todos sabemos q hay ciertos usuarios q tienen soluciones a estos problemas, pero por diferentes motivos no lo quieren compartir y en algunos c
+aso vender. Es mas, muchos tenemos ciertos \lquote logros\rquote  q a veces recelamos de compartirlo, y quien este libre de culpa, q tire la primera piedra. Esto merece otro debate a parte. 
+\par \ldblquote ...Si alguien est\'e1 interesado, aunque m\'e1s no sea a conocer un poco m\'e1s, que lo haga saber...\rdblquote 
+  -> Bueno, por esto se ha liado todo este post, por una ansia de conocer por parte de otros las ventajas de un entorno y de otro, NO decir q es mejor o peor.
+\par Walter, tu estas en una pata de la mesa como parte de (x)H, mi vision es desde la otra pata. Todo y q de momento hay mesas de 3 patas de momento jugamos 4.
+\par Finalmente, a mi particularmente, me gustaria conocer de xH todo lo q me pueda aportar, mas a nivel funcional q t\'e9cnico, asi como la estabilidad del producto, a donde se quiere llegar, q rendimiento me da, rdd\rquote s, ...
+\par \ldblquote ...}{\fs24\cgrid0  pero yo he optimizado todas las principales clases de FWH con xHarbour y aqui es donde se nota la diferencia.}{\fs24\cgrid0 ..\rdblquote 
+ -> Este punto me interesa mucho y me gustaria intercambiar este tipo optimizaciones, contigo y con todos los que quieran.}{\fs24\cgrid0 \line }{\fs24\cgrid0 
+\par Un saludo a todos.
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }}
