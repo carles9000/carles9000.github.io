@@ -3,7 +3,7 @@
    { "id" : "5"		, "parent" : "#", "text" : "World Harbour", "icon" : "images/mini_harbour.png", "state" : { "opened": false } },      
    { "id" : "10"	, "parent" : "0", "text" : "¿Que es UHttpd2?", "icon" : "images/clip.png", "data" : "htm/uhttpd2.htm" },
    { "id" : "100"	, "parent" : "0", "text" : "UHttpd2" },
-   { "id" : "110"	, "parent" : "100", "text" : "¿Que es UHttpd2?", "icon" : "images/clip.png", "data" : "htm/comofunciona.htm" },
+   { "id" : "110"	, "parent" : "100", "text" : "¿Como funciona?", "icon" : "images/clip.png", "data" : "htm/comofunciona.htm" },
    { "id" : "115"	, "parent" : "100", "text" : "Compilar App y UHttpd2", "icon" : "images/pdf.png", "data" : "doc/compile-uhttpd2.pdf" },
    { "id" : "120"	, "parent" : "100", "text" : "Chat", "icon" : "images/chat.png", "data" : "htm/contact.htm" },   
    { "id" : "200"	, "parent" : "0", "text" : "TWeb" },
