@@ -41,6 +41,7 @@
    { "id" : "305"	, "parent" : "2", "text" : "Browse edit", "icon" : "images/form.png", "data" : "htm/gif_brw_autoedit.htm" },   
    { "id" : "306"	, "parent" : "2", "text" : "App consulta", "icon" : "images/form.png", "data" : "htm/gif_xevi_brw.htm" },   
    { "id" : "307"	, "parent" : "2", "text" : "Notes", "icon" : "images/form.png", "data" : "htm/gif_notes.htm" },   
+   { "id" : "308"	, "parent" : "2", "text" : "ChatGPT", "icon" : "images/form.png", "data" : "htm/gif_chatgpt.htm" },   
    
    { "id" : "56"	, "parent" : "3", "text" : "2023", "icon" : "images/calendar.png" },
    { "id" : "57"	, "parent" : "3", "text" : "2022", "icon" : "images/calendar.png" },
