@@ -32,6 +32,7 @@
    { "id" : "295"	, "parent" : "280", "text" : "Menus", "icon" : "images/youtube.png", "data" : "htm/you-twebmenus.html" },
    
    { "id" : "350"	, "parent" : "200", "text" : "Deberias saber...", "icon" : "images/info.png", "state" : { "opened": false } },  
+   { "id" : "352"	, "parent" : "200", "text" : "<b>Manual TWEB</b>",  "icon" : "images/pdf.png", "data" : "doc/tweb_for_uhttpd2.pdf" },
    
    { "id" : "355"	, "parent" : "350", "text" : "MySql", "icon" : "images/clip.png", "data" : "htm/mysql.htm" },   
    { "id" : "356"	, "parent" : "350", "text" : "Curl", "icon" : "images/clip.png", "data" : "htm/curl.htm" },   
