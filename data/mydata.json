@@ -39,6 +39,7 @@
    { "id" : "356"	, "parent" : "350", "text" : "Curl", "icon" : "images/clip.png", "data" : "htm/curl.htm" },   
       
    { "id" : "400"	, "parent" : "0"  , "text" : "Pildoras", "icon" : "images/mini_pildora.png", "data" : "htm/pildoras.htm" },   
+   { "id" : "401"	, "parent" : "0"  , "text" : "Tools", "icon" : "images/mini_tools.png", "data" : "htm/tools.htm" },   
    { "id" : "405"	, "parent" : "0"  , "text" : "U-DBU App ejemplo", "icon" : "images/link.png", "data" : "htm/udbu.htm" },   
    { "id" : "406"	, "parent" : "0"  , "text" : "U-SQL App ejemplo", "icon" : "images/link.png", "data" : "htm/usql.htm" },   
    
