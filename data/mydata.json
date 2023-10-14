@@ -55,6 +55,7 @@
    { "id" : "59"	, "parent" : "3", "text" : "2020", "icon" : "images/calendar.png" },
    { "id" : "60"	, "parent" : "3", "text" : "2019", "icon" : "images/calendar.png" },
    
+   { "id" : "927"	, "parent" : "56", "text" : "Historia de un proyecto", "icon" : "images/edit.png", "data" : "htm/historia_proyecto.htm" }, 
    { "id" : "928"	, "parent" : "56", "text" : "Métricas", "icon" : "images/edit.png", "data" : "htm/metrica.htm" }, 
    { "id" : "929"	, "parent" : "56", "text" : "App Pedidos", "icon" : "images/edit.png", "data" : "htm/app_pedidos.htm" }, 
    { "id" : "930"	, "parent" : "56", "text" : "UT", "icon" : "images/edit.png", "data" : "htm/ut.htm" }, 
