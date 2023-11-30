@@ -56,6 +56,7 @@
    { "id" : "60"	, "parent" : "3", "text" : "2019", "icon" : "images/calendar.png" },
    
 
+   { "id" : "926"	, "parent" : "56", "text" : "Mi editor...&nbsp;&nbsp;<span class='new'>new</span>", "icon" : "images/edit.png", "data" : "htm/editor.htm" }, 
    { "id" : "927"	, "parent" : "56", "text" : "Creando un proyecto...", "icon" : "images/edit.png", "data" : "htm/creando_proyecto.htm" }, 
    { "id" : "928"	, "parent" : "56", "text" : "Métricas", "icon" : "images/edit.png", "data" : "htm/metrica.htm" }, 
    { "id" : "929"	, "parent" : "56", "text" : "App Pedidos", "icon" : "images/edit.png", "data" : "htm/app_pedidos.htm" }, 
