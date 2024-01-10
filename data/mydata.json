@@ -49,6 +49,7 @@
    { "id" : "308"	, "parent" : "2", "text" : "ChatGPT", "icon" : "images/form.png", "data" : "htm/gif_chatgpt.htm" },   
    { "id" : "309"	, "parent" : "2", "text" : "Websockets", "icon" : "images/form.png", "data" : "htm/gif_ws.htm" },   
    
+   { "id" : "55"	, "parent" : "3", "text" : "2024", "icon" : "images/calendar.png" },
    { "id" : "56"	, "parent" : "3", "text" : "2023", "icon" : "images/calendar.png" },
    { "id" : "57"	, "parent" : "3", "text" : "2022", "icon" : "images/calendar.png" },
    { "id" : "58"	, "parent" : "3", "text" : "2021", "icon" : "images/calendar.png" },
@@ -56,7 +57,8 @@
    { "id" : "60"	, "parent" : "3", "text" : "2019", "icon" : "images/calendar.png" },
    
 
-   { "id" : "926"	, "parent" : "56", "text" : "Mi editor...&nbsp;&nbsp;<span class='new'>new</span>", "icon" : "images/edit.png", "data" : "htm/editor.htm" }, 
+   { "id" : "925"	, "parent" : "55", "text" : "La web es un lio...&nbsp;&nbsp;<span class='new'>new</span>", "icon" : "images/edit.png", "data" : "htm/web_es_lio.htm" }, 
+   { "id" : "926"	, "parent" : "56", "text" : "Mi editor...", "icon" : "images/edit.png", "data" : "htm/editor.htm" }, 
    { "id" : "927"	, "parent" : "56", "text" : "Creando un proyecto...", "icon" : "images/edit.png", "data" : "htm/creando_proyecto.htm" }, 
    { "id" : "928"	, "parent" : "56", "text" : "Métricas", "icon" : "images/edit.png", "data" : "htm/metrica.htm" }, 
    { "id" : "929"	, "parent" : "56", "text" : "App Pedidos", "icon" : "images/edit.png", "data" : "htm/app_pedidos.htm" }, 
