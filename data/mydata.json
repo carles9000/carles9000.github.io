@@ -115,7 +115,7 @@
    { "id" : "2061"	, "parent" : "2050" , "text" : "5.- Usando Harbour", "icon" : "images/rx/clip.png", "data" : "htm/using_harbour.htm" },
    { "id" : "2062"	, "parent" : "2050" , "text" : "6.- Ruteando a función", "icon" : "images/rx/clip.png", "data" : "htm/route_to_func.htm" },
    { "id" : "2063"	, "parent" : "2050" , "text" : "7.- Creando un formulario", "icon" : "images/rx/clip.png", "data" : "htm/new_form.htm" },
-   { "id" : "2065"	, "parent" : "2050" , "text" : "Resumen", "icon" : "images/rx/star.png", "data" : "resume.htm" },   
+   { "id" : "2065"	, "parent" : "2000" , "text" : "Resumen", "icon" : "images/rx/star.png", "data" : "htm/resume.htm" },   
    { "id" : "2070"	, "parent" : "2000" , "text" : "Anexo", "icon" : "images/rx/help.png", "state" : { "opened": true } },
    { "id" : "2080"	, "parent" : "2070" , "text" : "Server Functions", "icon" : "images/rx/clip.png", "data" : "htm/functions.htm" }
    
