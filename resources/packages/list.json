@@ -3,18 +3,21 @@
 	"name" : "UT Project 1", 
 	"date" :"20210225", 
 	"autor" : "Carles Aubia", 
+	"package" : "flow.db", 
 	"description" : "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original."
  },
  { 	"id" : 2 , 
 	"name" : "UT Project 3", 
 	"date" :"20220226", 
 	"autor" : "Maria de la O", 
+	"package" : "tweb_browse.db", 
 	"description" : "Cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original."
  },
  { 	"id" : 3 , 
 	"name" : "UT Project 3", 
 	"date" :"20230226", 
 	"autor" : "Carles Aubia", 
+	"package" : "tweb_flow.db", 
 	"description" : "Ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original."
  }  
 ]
