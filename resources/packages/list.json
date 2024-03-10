@@ -3,21 +3,21 @@
 	"name" : "Flow example", 
 	"date" : "20240225", 
 	"author" : "Carles Aubia", 
-	"package" : "flow.db", 
+	"package" : "flow", 
 	"comment" : "Complete example in standard html. It does not use any framework. It is made up of a splash, authentication screen, menu, 2 screens, logout,... the basis of any program. In files\flow\flow.drawio.png is the program flow"
  },
  { 	"id" : 2 , 
 	"name" : "Flow example with TWeb",
 	"date" : "20240307", 
 	"author" : "Carles Aubia", 
-	"package" : "tweb_flow.db", 
+	"package" : "tweb_flow", 
 	"comment" : "Complete example with TWeb framework. It is the same example as Flow example. It is made up of a splash, authentication screen, menu, 2 screens, logout,... the basis of any program. In files\flow\flow.drawio.png is the program flow"
  },
  { 	"id" : 3 , 
 	"name" : "TWeb Browse", 
 	"date" : "20240326", 
 	"author" : "Carles Aubia", 
-	"package" : "tweb_browse.db", 
+	"package" : "tweb_browse", 
 	"comment" : "Simple example of browsing management with TWeb"
  }  
 ]
