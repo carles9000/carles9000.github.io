@@ -1,23 +1,23 @@
 [
  { 	"id" : 1 , 
-	"name" : "UT Project 1", 
-	"date" :"20210225", 
-	"autor" : "Carles Aubia", 
+	"name" : "Flow example", 
+	"date" : "20240225", 
+	"author" : "Carles Aubia", 
 	"package" : "flow.db", 
-	"description" : "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original."
+	"comment" : "Complete example in standard html. It does not use any framework. It is made up of a splash, authentication screen, menu, 2 screens, logout,... the basis of any program. In files\flow\flow.drawio.png is the program flow"
  },
  { 	"id" : 2 , 
-	"name" : "UT Project 3", 
-	"date" :"20220226", 
-	"autor" : "Maria de la O", 
-	"package" : "tweb_browse.db", 
-	"description" : "Cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original."
+	"name" : "Flow example with TWeb",
+	"date" : "20240307", 
+	"author" : "Carles Aubia", 
+	"package" : "tweb_flow.db", 
+	"comment" : "Complete example with TWeb framework. It is the same example as Flow example. It is made up of a splash, authentication screen, menu, 2 screens, logout,... the basis of any program. In files\flow\flow.drawio.png is the program flow"
  },
  { 	"id" : 3 , 
-	"name" : "UT Project 3", 
-	"date" :"20230226", 
-	"autor" : "Carles Aubia", 
-	"package" : "tweb_flow.db", 
-	"description" : "Ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original."
+	"name" : "TWeb Browse", 
+	"date" : "20240326", 
+	"author" : "Carles Aubia", 
+	"package" : "tweb_browse.db", 
+	"comment" : "Simple example of browsing management with TWeb"
  }  
 ]
