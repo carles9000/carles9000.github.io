@@ -19,5 +19,12 @@
 	"author" : "Carles Aubia", 
 	"package" : "tweb_browse", 
 	"comment" : "Simple example of browsing management with TWeb"
- }  
+ },
+ { 	"id" : 4 , 
+	"name" : "Webservices", 
+	"date" : "20240408", 
+	"author" : "Carles Aubia", 
+	"package" : "webservice", 
+	"comment" : "Webservices example"
+ } 
 ]
