@@ -28,7 +28,7 @@
 	"comment" : "Webservices example. Make a step-by-step demo that you can see at https://www.youtube.com/watch?v=3Ih_9UIT6XQ&t=3826s"
  },
  { 	"id" : 5 , 
-	"name" : "Webservices", 
+	"name" : "CURL", 
 	"date" : "20240429", 
 	"author" : "Carles Aubia", 
 	"package" : "curl", 
