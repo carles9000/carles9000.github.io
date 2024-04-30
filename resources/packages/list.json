@@ -33,5 +33,12 @@
 	"author" : "Carles Aubia", 
 	"package" : "curl", 
 	"comment" : "Easily run curl from RunnerXbase"
- } 
+ },
+ { 	"id" : 6 , 
+	"name" : "WDO", 
+	"date" : "20240501", 
+	"author" : "Carles Aubia", 
+	"package" : "wdo", 
+	"comment" : "WDO example for dbf, mysql, sqlite3"
+ }  
 ]
