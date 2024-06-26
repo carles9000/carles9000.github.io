@@ -40,5 +40,12 @@
 	"author" : "Carles Aubia", 
 	"package" : "wdo", 
 	"comment" : "WDO example for dbf, mysql, sqlite3"
+ },
+ { 	"id" : 7 , 
+	"name" : "Auth", 
+	"date" : "20240624", 
+	"author" : "Carles Aubia", 
+	"package" : "auth", 
+	"comment" : "Basic example auth, menu, basic structure "
  }  
 ]
