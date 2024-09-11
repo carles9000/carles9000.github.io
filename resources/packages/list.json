@@ -49,7 +49,7 @@
 	"comment" : "Basic example auth, menu, basic structure "
  }, 
  { 	"id" : 8 , 
-	"name" : "Auth", 
+	"name" : "Webinar", 
 	"date" : "20240911", 
 	"author" : "Carles Aubia", 
 	"package" : "webinar", 
