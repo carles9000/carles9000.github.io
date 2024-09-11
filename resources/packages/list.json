@@ -47,5 +47,12 @@
 	"author" : "Carles Aubia", 
 	"package" : "auth", 
 	"comment" : "Basic example auth, menu, basic structure "
- }  
+ }, 
+ { 	"id" : 8 , 
+	"name" : "Auth", 
+	"date" : "20240911", 
+	"author" : "Carles Aubia", 
+	"package" : "webinar", 
+	"comment" : "Examples from first session webinar "
+ } 
 ]
