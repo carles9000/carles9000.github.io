@@ -13,7 +13,7 @@
    { "id" : "120"	, "parent" : "100", "text" : "Soporte", "icon" : "images/chat.png", "data" : "htm/contact.htm" },   
    { "id" : "200"	, "parent" : "0"  , "text" : "<b>T</b>Web" , "icon" : "images/tweb.ico"},
    { "id" : "205"	, "parent" : "200", "text" : "¿Que es TWeb?", "icon" : "images/clip.png", "data" : "htm/que_es_tweb.htm" },
-   { "id" : "215"	, "parent" : "200", "text" : "Inicio rápido", "icon" : "images/clip.png", "data" : "htm/tweb_template.htm" },
+   { "id" : "215"	, "parent" : "200", "text" : "<b>Inicio rápido</b>", "icon" : "images/clip.png", "data" : "htm/tweb_template.htm" },
    { "id" : "220"	, "parent" : "200", "text" : "Nueva página. (Resumen)", "icon" : "images/clip.png", "data" : "htm/newpage.htm" },
    
    
