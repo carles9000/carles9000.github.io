@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="icon" href="images/ut_ico.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">	
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
+	
+    <title>UT - The Harbour Framework for Web</title>
+    <style>
+	
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 4rem;
+            background-color: white;
+        }
+
+        .logo {
+            height: 100px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .documentation-btn {
+            border: 2px solid #445696;
+            color: #FF2D20;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+			font-weight: bold;
+        }
+		
+		
+        .documentation-btn:hover{
+			background-color: #445696;
+			color: white;
+		}
+
+        main {
+            background-color: #ffffff;
+            min-height: 80vh;
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 4rem;
+            color: #1a202c;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 3.5rem;
+            color: #445696;
+            margin-bottom: 2rem;
+			font-weight: bold;
+        }
+
+        .description {
+            max-width: 800px;
+            margin: 0 auto 2rem auto;
+            color: #4a5568;
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #445696;
+            color: white;
+        }
+
+        .btn-secondary {
+            border: 2px solid #FF2D20;
+            color: #FF2D20;
+        }
+
+		/*	About*/
+		
+		.myimg {
+			float:left;
+			border: 1px solid black;
+			width: 150px;
+			height: 150px;
+			margin-right: 20px;
+			margin-bottom: 5px;
+			box-shadow: 5px 5px 5px gray;
+		}	
+		
+		#t1 {
+			font-size: 22px;
+			font-weight: bold;
+		}
+		
+		#t2 {
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		#t3 {
+			font-size: 10px;
+			font-style: italic;	
+			color: gray;		
+		}
+		
+				.hb {
+					font-family: 'Architects Daughter';
+					font-size: 20px;
+					color: #343a40 !important;
+					width: auto;
+					padding: 0px !important;
+					text-align: right;
+					font-weight: bold;					
+				}		
+		
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="images/ut.png" alt="UT Logo" class="logo">
+        <div class="nav-links">
+			<!--
+            <a href="#">Partners</a>
+            <a href="#" data-toggle="modal" data-target="#exampleModalCenter">About</a>
+            <a href="index_doc.html" class="documentation-btn">DOCUMENTATION</a>
+			-->
+        </div>
+    </nav>
+    <main>
+
+        <h1>The Harbour Framework</h1>
+        <div class="subtitle">for Web applications</div>
+        <p class="description">
+			<b>UT</b> is a Harbour framework for programming the web using an easy and intuitive xBase-style syntax.
+			It is a new scenario in which we define a new way of working on the web.
+        </p>
+        <div class="buttons">
+            <a href="index_doc_es.html" class="btn btn-primary">GET STARTED</a>
+
+        </div>
+		
+		
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	  <div class="modal-dialog " role="document">
+		<div class="modal-content">
+		<!--
+		  <div class="modal-header">
+                    <h5 class="modal-title " id="aboutModalLabel">
+                        <i class="fas fa-info-circle"></i>
+                        &nbsp;Acerca de Nosotros
+                    </h5>
+                    
+		  </div>
+		  -->
+		 
+		<div class="modal-body">                    
+					
+			<div >
+			
+				<div class="text-center" style="min-width: 150px;">
+					<img src="images/charly.png" class="rounded-circle myimg" alt="Perfil">
+				</div>
+			
+				<div class="flex-grow-1">
+					
+					<span id="t1">Un Titul</span> y bla bla bla
+					<p><span id="t2">Segon Titul</span></p>
+					<p><span class='hb'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+					   Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+					</span></p>
+				</div>
+				
+			</div>
+		</div>
+		
+		  <div class="modal-footer">
+			<span id="t3">&copy;&nbsp;2025 - Charly Brown</span>
+		  </div>
+
+		</div>
+	  </div>
+	</div>		
+		
+		
+    </main>
+
+</body>
+</html>
