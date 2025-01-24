@@ -122,48 +122,88 @@
             color: white;
         }
 
-        .btn-secondary {
-            border: 2px solid #FF2D20;
-            color: #FF2D20;
-        }
 
-		/*	About*/
-		
-		.myimg {
-			float:left;
-			border: 1px solid black;
-			width: 150px;
-			height: 150px;
-			margin-right: 20px;
-			margin-bottom: 5px;
-			box-shadow: 5px 5px 5px gray;
-		}	
-		
-		#t1 {
-			font-size: 22px;
-			font-weight: bold;
-		}
-		
-		#t2 {
-			font-size: 20px;
-			font-weight: bold;
-		}
 
-		#t3 {
-			font-size: 10px;
-			font-style: italic;	
-			color: gray;		
-		}
+				#myfooter {
+					font-size: 12px;
+					font-style: italic;	
+					color: gray;		
+				}
 		
 				.hb {
 					font-family: 'Architects Daughter';
-					font-size: 20px;
-					color: #343a40 !important;
+					font-size: 16px;
+					color: white !important;
 					width: auto;
 					padding: 0px !important;
 					text-align: right;
-					font-weight: bold;					
-				}		
+					/*font-weight: bold;					*/
+				}
+				
+				.author {
+					/*font-family: 'Architects Daughter';*/
+					font-size: 14px;
+					color: white !important;
+					width: auto;
+					padding: 0px !important;
+					text-align: left;
+					margin:0px;
+					margin-top: 30px;
+				}
+
+				.author_subtitle {
+					font-style: italic;
+					font-size: 12px;
+					text-align: left;					
+				}
+
+					
+		
+		.mybody { padding:0px; }
+		
+		.mycontent {
+			box-shadow: 5px 5px 5px #3e3e3e;
+		}
+		
+		.mybox {
+		
+			width:100%;
+			height:185px;
+			/*background-color:#202f46;*/
+			overflow: hidden;
+			color: white;	
+			border-bottom: 1px solid black;			
+		}
+		
+		.mydescription {
+			padding:9px;
+			width:50%;
+			height:100%;
+			/*border:1px solid red;*/
+			float: left;
+			background-color: #1f3854;
+	
+		}
+		
+		
+		
+		.mypicture {
+			width:50%;
+			height:100%;
+			/*border:1px solid green;*/
+			float: right;
+			background-color:black;
+		}	
+
+		.mypicture img {
+			width: 100%;
+			filter: grayscale(100%);
+			width: 238px;
+		}
+		
+		.harbour {
+			width: 50px;
+		}	
 		
 
 		@media (max-width: 768px) {
@@ -185,13 +225,16 @@
 			}
 		
 			h1 {
-				font-size: 35px;
+				font-size: 28px;
 				font-weight: bold;
 			}
 			
 			.subtitle {
-				font-size: 28px;
-				
+				font-size: 26px;				
+			}
+			
+			.description {
+				font-size: 16px;				
 			}
 		}
 
@@ -206,6 +249,7 @@
             <a href="#" data-toggle="modal" data-target="#exampleModalCenter">About</a>
             <a href="index_doc.html" class="documentation-btn">DOCUMENTATION</a>
 			-->
+			<a href="#" data-toggle="modal" data-target="#exampleModalCenter">About</a>
         </div>
     </nav>
     <main>
@@ -236,28 +280,34 @@
 		  </div>
 		  -->
 		 
-		<div class="modal-body">                    
+		<div class="modal-body mybody">                    
 					
 			<div >
-			
-				<div class="text-center" style="min-width: 150px;">
-					<img src="images/charly.png" class="rounded-circle myimg" alt="Perfil">
+				<div class="mybox">
+					<div class="mydescription">
+						<p><span class="hb">
+						<!--"La libertad de elegir tu lenguaje alimenta tu amor por la programación.
+						Dominarlo maximiza tu productividad..."-->
+						"The freedom to choose your language fuels your love for programming. 
+						Mastering it maximizes your productivity"
+						</span></p>
+						<div class="author">
+							Carles Aubia
+							<div class="author_subtitle">Author and Harbour guardian</div>
+						</div>
+					</div>
+					<div class="mypicture">
+						<img src="images/charly.png"></img>
+					</div>								
 				</div>
-			
-				<div class="flex-grow-1">
-					
-					<span id="t1">Un Titul</span> y bla bla bla
-					<p><span id="t2">Segon Titul</span></p>
-					<p><span class='hb'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-					   Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-					</span></p>
-				</div>
+
 				
 			</div>
 		</div>
 		
-		  <div class="modal-footer">
-			<span id="t3">&copy;&nbsp;2025 - Charly Brown</span>
+		  <div class="modal-footer" styler="padding: 10px;">
+			<span id="myfooter"><b>UT</b> was developed with <b>Harbour</b> </span>
+			<img class="harbour" src="images/harbour_mini.png"/>
 		  </div>
 
 		</div>
