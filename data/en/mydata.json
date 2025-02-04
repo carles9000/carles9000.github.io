@@ -39,7 +39,8 @@
 						{ "id" : "295"	, "parent" : "70", "text" : "Menus", "icon" : "images/youtube.png", "data" : "en/htm/you-twebmenus.html" },
 				{ "id" : "44"	, "parent" : "40" , "text" : "Manual TWEB (ESP)", "icon" : "images/pdf.png",  "data" : "en/doc/tweb_for_ut.pdf" },						
 				{ "id" : "90"	, "parent" : "40" , "text" : "Manual Websockets (ESP)", "icon" : "images/pdf.png",  "data" : "en/doc/websockets.pdf" },
-				
+			
+			{ "id" : "47"	, "parent" : "31" , "text" : "Programming scenarios" , "icon" : "images/clip.png", "data" : "en/htm/escenarios.htm"  },			
 			
 			
 		{ "id" : "91"	, "parent" : "2"  , "text" : "Tools", "icon" : "images/clip.png",  "data" : "en/htm/tools.htm" },

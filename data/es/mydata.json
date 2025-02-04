@@ -40,6 +40,7 @@
 				{ "id" : "44"	, "parent" : "40" , "text" : "Manual TWEB", "icon" : "images/pdf.png",  "data" : "es/doc/tweb_for_ut.pdf" },						
 				{ "id" : "90"	, "parent" : "40" , "text" : "Manual Websockets", "icon" : "images/pdf.png",  "data" : "es/doc/websockets.pdf" },
 				
+			{ "id" : "47"	, "parent" : "31" , "text" : "Escenarios programación" , "icon" : "images/clip.png", "data" : "es/htm/escenarios.htm"  },
 			
 			
 		{ "id" : "91"	, "parent" : "2"  , "text" : "Herramientas", "icon" : "images/clip.png",  "data" : "es/htm/tools.htm" },
