@@ -51,6 +51,7 @@
 		float:left;
 		font-family: tahoma;
 		font-size: 14px;
+		display:block;
 	}
 
 	#mybody {
@@ -189,6 +190,12 @@
 		margin-top: 10px;
 		height: 40px;
 		margin-right: 20px;
+	}
+	
+	#mybar {
+		display: none;
+		width:100%;
+		height:50px;		
 	}	
 	
 
@@ -206,8 +213,9 @@
 			}
 			
 			#title img{
-				height:50px;				
+				height:40px;				
 				vertical-align: middle;
+				
 			}			
 			
 			#title span {
@@ -218,7 +226,7 @@
 				font-family: 'Indie Flower', cursive;
 				font-family: 'Comfortaa', cursive;
 				font-weight: bold;
-				font-size: 28px;								
+				font-size: 18px !important;								
 			} 
 			
 			#title span small{
@@ -235,16 +243,30 @@
 			.mycontainer {
 				top: 70px;
 				display: grid;
-			}	
+			}
+
+			#mybar {
+				display: flex;
+			}
 
 			#mytree {
-				width:auto;
+				width:100%;
+				position: absolute;
+				bottom: 140px;
+				top: 50px;
+				overflow: scroll;								
 			}
 			
 			#mybody {
-				width: auto;
+				width: 100%;				
 				margin: 0;
+				position: absolute;
+				top: 350px;
+				bottom: 0px;
+				overflow: hidden;
+				border-top: 2px solid gray;				
 			}
+			
 			a {
 				font-size: 22px;
 			}
@@ -260,7 +282,12 @@
 			}	
 
 			.flag {
-				margin-top: 20px;			
-			}			
+				margin-top: 20px;
+				margin-top: 12px;				
+			}
+
+			.mydonate {			
+				display:none;
+			}
 	}
 		
