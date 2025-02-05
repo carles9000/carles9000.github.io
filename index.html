@@ -149,6 +149,9 @@
 					text-align: left;
 					margin:0px;
 					margin-top: 30px;
+					bottom: 65px;
+					position: fixed;    
+					margin: 5px;
 				}
 
 				.author_subtitle {
@@ -193,6 +196,7 @@
 			/*border:1px solid green;*/
 			float: right;
 			background-color:black;
+			overflow: hidden;
 		}	
 
 		.mypicture img {
@@ -203,7 +207,10 @@
 		
 		.harbour {
 			width: 50px;
-		}	
+		}
+
+			
+	
 		
 
 		@media (max-width: 768px) {
@@ -220,13 +227,15 @@
 			}
 			
 			nav .logo {
-				width:70px;
-				height:auto;
+				/*width:70px;*/
+				height:40px;
 			}
 		
 			h1 {
 				font-size: 28px;
 				font-weight: bold;
+		        margin-bottom: 0;
+
 			}
 			
 			.subtitle {
@@ -234,12 +243,16 @@
 			}
 			
 			.description {
-				font-size: 16px;				
+				font-size: 16px !important;
+				padding: 16px;				
 			}
 			
 			.mydescription{ 
 				padding:2px;
 			}
+			
+			.mycontainer { top:55px; }
+			
 			
 			.hb {
 				font-size: 14px;
@@ -255,7 +268,10 @@
 			}			
 			
 			.mypicture img {						
-				width: 209px !important;
+				width: 209px !important;				
+				margin-left: -20px;
+				padding: 0;
+				margin-top: 20px;
 			}
 			
 			
