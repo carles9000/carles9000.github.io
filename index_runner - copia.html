@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+	<meta charset="utf-8">	
+	<link rel="icon" href="images/ut_ico.png">
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<meta name="description" content="UT Project - Servidor Harbour para Web. Crea de manera rápida y fácil una aplicacion web."> 
+	<meta name="description" content="UT Project - Harbour Web Server. Quickly and easily create a web application."> 
+	<meta name="keywords" content="UT project, uhttpd2, httpd2, harbour, web, tweb, modharbour, framework">
+	<meta name="Author" content="Carles Aubia Floresvi">
+	<meta name="Generator" content="UT">	
+
+	<meta property="og:type" content="software">
+	<meta property="og:url" content="https://github.com/carles9000">
+	<meta property="og:site_name" content="UT">
+	<meta property="og:title" content="UT Project">
+	<meta property="og:description" content="UT Project - Harbour Web Server. Quickly and easily create a web application">
+	<meta property="og:image" content="https://raw.githubusercontent.com/carles9000/pool/master/logos/ut_ico.png">			
+	
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+	
+	<!--<link rel="stylesheet" href="lib/jstree/themes/default/style.min.css" />-->
+	<!--<script src="lib/jstree/jstree.min.js"></script>-->
+	
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />   
+   
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">	
+	
+	<!--<link rel="stylesheet" href="doc.css">-->
+	
+	<script src="lib/ace/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+	<link href="lib/harbour/styles.css"rel="stylesheet" >
+	
+    <title>Harbour Runner</title>		
+	<style>
+	    body { margin: 10px; }
+		
+		#hb_title { 
+			height: 81px;
+			overflow: hidden;
+		}
+
+		#hb_title img{
+			height:70px;				
+			vertical-align: middle;
+		}
+
+		#hb_title span {
+			/*display: inline-block;*/
+			vertical-align: middle;	
+			margin-left: 20px;
+			margin-bottom: 18px;
+			/*font-family: 'Indie Flower', cursive;*/
+			font-family: 'Comfortaa', cursive;
+			font-weight: bold;
+			font-size: 40px;	
+		}		
+
+		#hb_bar {
+			width:100%;
+			height: 50px;
+			border: 1px solid red;
+			background-color:gray;
+		}
+
+		#hb_container {
+			min-width: 200px;
+			right: 10px;
+			left: 10px;
+			top: 141px;
+			position: absolute;
+			bottom: 10px;   
+			display: inline-flex;
+			overflow: hidden;
+			border:3px solid green;
+		}	
+		
+		#hb_code {
+			overflow-y: auto;
+			border:1px solid blue;
+			width:675px;
+			float:left;
+			font-family: tahoma;
+			font-size: 14px;
+			display:block;
+		}	
+
+		#hb_console {
+			width: 100%;
+			margin-left: 5px;
+			border: 1px solid brown;
+			margin-right: 5px;
+			text-align: center;
+		}	
+
+		#hb_editor {												
+			position: relative;
+			top: 0px;
+			right: 0px;
+			left: 0px;			
+			height: 100%;
+			width: 100% !important;
+		}		
+	</style>
+  </head>   
+<body>
+
+
+	<div id="hb_title">
+		<a href="index.html"><img src="images/ut.png" class="logo" /></a>				
+		<span>Harbour Runner</span>										
+		<hr>		
+	</div>
+		<div id="hb_bar">
+			<button id="view" type="button" class="btn btn-outline-dark" onclick="alert(123)">
+				<i class="fa fa-eye" aria-hidden="true"></i>&nbsp;Test</button>
+		</div>
+
+	<div id="hb_container">	
+	
+		<div id="hb_code"  >
+			<div id="hb_editor">function Main()
+
+			? "Hello world"
+			   
+			return nil</div>		
+		
+		</div>
+		
+		<div id="hb_console">
+		
+		</div>		
+		
+	</div>	
+
+    <script>
+       var editor = ace.edit("hb_editor");
+       var code, editor_width, right_margin_left;
+       editor.setTheme("ace/theme/tomorrow_night_blue");
+       editor.setFontSize(18);     
+       editor.setHighlightActiveLine(true);
+       editor.session.setMode("ace/mode/c_cpp");
+
+       code = localStorage.getItem('hb_code');  
+       if( code && code.length != 0 )
+          editor.session.setValue( code );
+
+       editor_width = localStorage.getItem( 'editor-width' );
+	   
+       if( editor_width )
+          $( "#hb_editor" ).css( "width", editor_width );	
+
+    </script>
+</body>
+
+</html>

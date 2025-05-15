@@ -1,0 +1,62 @@
+      body {
+         margin:0px;  
+      }
+      #menu {
+        background-color: black;
+        color:white;
+        font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+      }
+      #menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+      #menu li {
+        float: left;
+        cursor: pointer;
+      }
+      #menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+      }
+      #menu li a:hover {
+        background-color: darkgray;
+      }
+      #menu li:last-child{
+        float:right;
+      }
+      #editor {
+        margin-left: 0px;
+        width:946px;
+        float: left;
+        bottom: 0px;
+        position: absolute;
+        top: 39px;
+      }
+      #splitter{
+         width:5px;
+         background-color: white;
+         cursor:col-resize;
+         float:left;
+         height: 100%;
+      }
+      #right{
+          background-color:aquamarine;
+          font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+          margin-left: 947px;
+          position: absolute;
+          top: 39px;
+          bottom: 0px;
+          width: 100%;
+      }
+      #output{
+        float: left;
+        height: 100%;
+        padding: 10px;
+      }
+	  

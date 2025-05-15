@@ -76,6 +76,8 @@
 			{ "id" : "522"	, "parent" : "101", "text" : "Lenguaje C para Harbour (Manu)", "icon" : "images/pdf.png", "data" : "es/doc/extern/bucaneros2.pdf" },
 			{ "id" : "523"	, "parent" : "101", "text" : "Notación Húngara (A. Linares)", "icon" : "images/pdf.png", "data" : "es/doc/extern/notacionhungara.pdf" },
 			{ "id" : "524"	, "parent" : "101", "text" : "Máquina Virtual Harbour (Walter)","icon" : "images/clip.png",   "data" : "es/htm/maquinavirtual.htm" },
+			
+		{ "id" : "102"	, "parent" : "9", "text" : "Harbour Runner",  "icon" : "images/harbour_mini.png", "data" : "harbour_runner--"  },			
      
 	{ "id" : "10"	    , "parent" : "#"  , "text" : "Soporte y enlaces de interés...", "icon" : "images/link.png", "data" : "es/htm/support.htm"  },
    
