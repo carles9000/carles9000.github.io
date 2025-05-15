@@ -200,41 +200,28 @@
 		.mybox {
 		
 			width:100%;
-			height:185px;
+			/*height:185px;*/
 			/*background-color:#202f46;*/
 			overflow: hidden;
 			color: white;	
-			border-bottom: 1px solid black;			
+			border-bottom: 1px solid black;	
+			box-shadow: 5px 5px 5px gray;			
 		}
 		
 		.mydescription {
 			padding:9px;
-			width:50%;
-			height:100%;
-			/*border:1px solid red;*/
-			float: left;
-			background-color: #1f3854;
-	
+			background-color: #1f3854;	
 		}
-
-		.mypicture {
-			width:50%;
-			height:100%;
-			/*border:1px solid green;*/
-			float: right;
-			background-color:black;
-			overflow: hidden;
-		}	
-
-		.mypicture img {
-			width: 100%;
-			filter: grayscale(100%);
-			width: 238px;
+		
+		.myfooter {
+			padding-top : 0;			
 		}
 		
 		.harbour {
 			width: 50px;
-		}		
+		}
+
+		.myauthor { text-align:right; }
 
 	@media (max-width: 768px) {
 
@@ -301,26 +288,24 @@
 				<div class="mybox">
 					<div class="mydescription">
 						<p><span class="hb">
-						<!--"La libertad de elegir tu lenguaje alimenta tu amor por la programación.
-						Dominarlo maximiza tu productividad..."-->
-						"The freedom to choose your language fuels your love for programming. 
-						Mastering it maximizes your productivity"
+						Create and run small snippets in Harbour and test code.
+						Agreements to  
+						<a href="https://github.com/fivetechsoft">Antonio Linares</a> and 
+						<a href="https://github.com/vszakats">Viktor Szakats</a>						
 						</span></p>
-						<div class="author">
-							Carles Aubia
-							<div class="author_subtitle">Author and Harbour guardian</div>
+						
+						<div class="myauthor">
+							Carles Aubia author of <a href="index.html"><b>UT</b></a>							
 						</div>
+						
 					</div>
-					<div class="mypicture">
-						<img src="images/charly.png"></img>
-					</div>								
 				</div>
 
 				
 			</div>
 		</div>
 		
-		  <div class="modal-footer" styler="padding: 10px;">
+		  <div class="modal-footer myfooter" styler="padding: 10px;">
 			<span id="myfooter"><b>&copy;&nbsp;Harbour</b> </span>
 			<img class="harbour" src="images/harbour_mini.png"/>
 		  </div>
