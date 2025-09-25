@@ -37,11 +37,13 @@
 						{ "id" : "293"	, "parent" : "70", "text" : "Security - Sessions", "icon" : "images/youtube.png", "data" : "en/htm/you-twebsession.html" },
 						{ "id" : "294"	, "parent" : "70", "text" : "Codepage", "icon" : "images/youtube.png", "data" : "en/htm/you-twebcodepage.html" },
 						{ "id" : "295"	, "parent" : "70", "text" : "Menus", "icon" : "images/youtube.png", "data" : "en/htm/you-twebmenus.html" },
-				{ "id" : "44"	, "parent" : "40" , "text" : "Manual TWEB (ESP)", "icon" : "images/pdf.png",  "data" : "en/doc/tweb_for_ut.pdf" },						
-				{ "id" : "90"	, "parent" : "40" , "text" : "Manual Websockets (ESP)", "icon" : "images/pdf.png",  "data" : "en/doc/websockets.pdf" },
-			
+
 			{ "id" : "47"	, "parent" : "31" , "text" : "Programming scenarios" , "icon" : "images/clip.png", "data" : "en/htm/escenarios.htm"  },	
-			
+	   { "id" : "80"	, "parent" : "2"  , "text" : "Manuals" },   
+				{ "id" : "81"	, "parent" : "80" , "text" : "Seerver functions", "icon" : "images/clip.png",  "data" : "es/htm/ut_functions.htm" },						
+				{ "id" : "82"	, "parent" : "80" , "text" : "TWEB Manual", "icon" : "images/pdf.png",  "data" : "es/doc/tweb_for_ut.pdf" },						
+				{ "id" : "93"	, "parent" : "80" , "text" : "Websockets Manual", "icon" : "images/pdf.png",  "data" : "es/doc/websockets.pdf" },
+					
 			
 			
 		{ "id" : "91"	, "parent" : "2"  , "text" : "Tools", "icon" : "images/clip.png",  "data" : "en/htm/tools.htm" },
