@@ -40,7 +40,7 @@
 				
 			{ "id" : "47"	, "parent" : "31" , "text" : "Escenarios programación" , "icon" : "images/clip.png", "data" : "es/htm/escenarios.htm"  },
 	   { "id" : "80"	, "parent" : "2"  , "text" : "Manuales" },   
-				{ "id" : "81"	, "parent" : "80" , "text" : "Funciones Server", "icon" : "images/clip.png",  "data" : "es/htm/ut_functions.html" },						
+				{ "id" : "81"	, "parent" : "80" , "text" : "Funciones Server", "icon" : "images/clip.png",  "data" : "es/htm/ut_functions.htm" },						
 				{ "id" : "82"	, "parent" : "80" , "text" : "Manual TWEB", "icon" : "images/pdf.png",  "data" : "es/doc/tweb_for_ut.pdf" },						
 				{ "id" : "93"	, "parent" : "80" , "text" : "Manual Websockets", "icon" : "images/pdf.png",  "data" : "es/doc/websockets.pdf" },
 			
