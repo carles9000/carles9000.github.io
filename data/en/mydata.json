@@ -40,9 +40,9 @@
 
 			{ "id" : "47"	, "parent" : "31" , "text" : "Programming scenarios" , "icon" : "images/clip.png", "data" : "en/htm/escenarios.htm"  },	
 	   { "id" : "80"	, "parent" : "2"  , "text" : "Manuals" },   
-				{ "id" : "81"	, "parent" : "80" , "text" : "Server functions", "icon" : "images/clip.png",  "data" : "es/htm/ut_functions.htm" },						
-				{ "id" : "82"	, "parent" : "80" , "text" : "TWEB Manual", "icon" : "images/pdf.png",  "data" : "es/doc/tweb_for_ut.pdf" },						
-				{ "id" : "93"	, "parent" : "80" , "text" : "Websockets Manual", "icon" : "images/pdf.png",  "data" : "es/doc/websockets.pdf" },
+				{ "id" : "81"	, "parent" : "80" , "text" : "Server functions", "icon" : "images/clip.png",  "data" : "en/htm/ut_functions.htm" },						
+				{ "id" : "82"	, "parent" : "80" , "text" : "TWEB Manual", "icon" : "images/pdf.png",  "data" : "en/doc/tweb_for_ut.pdf" },						
+				{ "id" : "93"	, "parent" : "80" , "text" : "Websockets Manual", "icon" : "images/pdf.png",  "data" : "en/doc/websockets.pdf" },
 					
 			
 			
