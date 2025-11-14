@@ -81,8 +81,18 @@
 			{ "id" : "524"	, "parent" : "101", "text" : "Máquina Virtual Harbour (Walter)","icon" : "images/clip.png",   "data" : "es/htm/maquinavirtual.htm" },
 			
 		{ "id" : "104"	, "parent" : "9", "text" : "Harbour Runner",  "icon" : "images/harbour16.png", "data" : "harbour_runner"  },			
+		
 		{ "id" : "105"	, "parent" : "9", "text" : "HIX - Web Server",  "icon" : "images/hix16.png", "data" : "es/htm/hix.htm"  },
+		{ "id" : "600"	, "parent" : "105", "text" : "Lecciones Basicas"  },
+			{ "id" : "601"	, "parent" : "600", "text" : "Proyecto Ticker (I) "                  ,"icon" : "images/clip.png",   "data" : "es/htm/ticket_v1_es.htm"   },
+			{ "id" : "602"	, "parent" : "600", "text" : "Proyecto Ticker (II) - Rutas"          ,"icon" : "images/clip.png",   "data" : "es/htm/ticket_v2_es.htm"   },
+			{ "id" : "603"	, "parent" : "600", "text" : "Proyecto Ticker (III) - Carpetas"      ,"icon" : "images/clip.png",   "data" : "es/htm/ticket_v3_es.htm"   },
+			{ "id" : "604"	, "parent" : "600", "text" : "Proyecto Ticker (IV) - Backend View"   ,"icon" : "images/clip.png",   "data" : "es/htm/ticket_v4_es.htm"   },
+			{ "id" : "605"	, "parent" : "600", "text" : "Proyecto Ticker (V) - IA & pantallas"  ,"icon" : "images/clip.png",   "data" : "es/htm/ticket_v5_es.htm"   },
+			{ "id" : "606"	, "parent" : "600", "text" : "Proyecto Ticker (VI) - Test Carga"     ,"icon" : "images/clip.png",   "data" : "es/htm/ticket_v6_es.htm"   },
+		{ "id" : "610"	, "parent" : "105", "text" : "Loader" ,"icon" : "images/clip.png", "data" : "es/htm/hix_loader.htm"   },
      
+	 
 		{ "id" : "106"		, "parent" : "#"  , "text" : "Historia de un proyecto..." }, 	
 			{ "id" : "55"	, "parent" : "106", "text" : "2024", "icon" : "images/calendar.png" },
 			{ "id" : "56"	, "parent" : "106", "text" : "2023", "icon" : "images/calendar.png" },

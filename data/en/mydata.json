@@ -77,15 +77,20 @@
 			{ "id" : "524"	, "parent" : "101", "text" : "Máquina Virtual Harbour (Walter Negro)","icon" : "images/clip.png",   "data" : "en/htm/maquinavirtual.htm" },
 			
 		{ "id" : "102"	, "parent" : "9", "text" : "Harbour Runner",    "icon" : "images/harbour16.png", "data" : "harbour_runner"  },
+		
 		{ "id" : "103"	, "parent" : "9", "text" : "HIX - Web Server",  "icon" : "images/hix16.png", "data" : "en/htm/hix.htm"  },
+		{ "id" : "600"	, "parent" : "103", "text" : "Basic Lessons"  },
+			{ "id" : "601"	, "parent" : "600", "text" : "Ticket Project (I) "                ,"icon" : "images/clip.png",   "data" : "en/htm/ticket_v1_en.htm"   },
+			{ "id" : "602"	, "parent" : "600", "text" : "Ticket Project (II) - Routes"       ,"icon" : "images/clip.png",   "data" : "en/htm/ticket_v2_en.htm"   },
+			{ "id" : "603"	, "parent" : "600", "text" : "Ticket Project (III) - Folders"     ,"icon" : "images/clip.png",   "data" : "en/htm/ticket_v3_en.htm"   },
+			{ "id" : "604"	, "parent" : "600", "text" : "Ticket Project (IV) - Backend View" ,"icon" : "images/clip.png",   "data" : "en/htm/ticket_v4_en.htm"   },
+			{ "id" : "605"	, "parent" : "600", "text" : "Ticket Project (V) - IA & screens"  ,"icon" : "images/clip.png",   "data" : "en/htm/ticket_v5_en.htm"   },
+			{ "id" : "606"	, "parent" : "600", "text" : "Ticket Project (VI) - Load Testing" ,"icon" : "images/clip.png",   "data" : "en/htm/ticket_v6_en.htm"   },
+		{ "id" : "610"	, "parent" : "103", "text" : "Loader" ,"icon" : "images/clip.png", "data" : "en/htm/hix_loader.htm"   },
      
 	{ "id" : "10"	    , "parent" : "#"  , "text" : "Support and links of interest...", "icon" : "images/link.png", "data" : "en/htm/support.htm"  },
    
-   
-   
-   
-   
-   
+ 
    
    { "id" : "999999"	, "parent" : "-1"  , "text" : "-" }
 ]

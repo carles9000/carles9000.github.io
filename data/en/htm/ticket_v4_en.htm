@@ -1,0 +1,316 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI Emoji";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	letter-spacing:.2pt;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=ES style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse'>
+ <tr style='height:2.0cm'>
+  <td width=415 style='width:311.6pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:2.0cm'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=655
+   style='width:490.9pt;border-collapse:collapse'>
+   <tr>
+    <td width=636 style='width:476.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='text-align:justify;line-height:105%'><a
+    name="_Hlk214033306"><b><span style='font-size:22.0pt;line-height:105%'>Ticket
+    Project (IV) – Backend View</span></b></a></p>
+    </td>
+    <td width=19 style='width:14.2pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='text-align:justify;line-height:105%'><b><span
+    style='font-size:18.0pt;line-height:105%'>&nbsp;</span></b></p>
+    </td>
+   </tr>
+  </table>
+  </td>
+  <td width=151 style='width:113.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:2.0cm'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:105%'><b><span
+  style='font-size:18.0pt;line-height:105%'><img width=84 height=51
+  src="../../es/htm/que_es_ut_archivos/image001.png"></span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+display:none;letter-spacing:0pt'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="99%"
+ style='width:99.48%;border-collapse:collapse'>
+ <tr style='height:13.7pt'>
+  <td width=416 style='width:11.0cm;padding:.7pt 4.3pt .7pt 0cm;height:13.7pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:105%'><span
+  style='font-size:16.0pt;line-height:105%'>&nbsp;</span></p>
+  </td>
+  <td width=148 style='width:111.15pt;padding:.7pt 4.3pt .7pt 0cm;height:13.7pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:105%'>Autor:
+  Carles Aubia</p>
+  <p class=MsoNormal align=right style='text-align:right;line-height:105%'>Fecha
+  Rev: 14/11/2025</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:14.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Our
+backend file&nbsp;web/proc_ticket.prg&nbsp;is pretty basic and easy to
+understand. Let's try to clean up the code where we create the view, the
+response screen. If you check the code, you can see we build the view like
+this:</span></p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=566 valign=top style='width:424.7pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>.. .</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>cMessage :=
+  '&lt;html&gt;'</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>cMessage +=
+  '&lt;h1&gt;Request processed !&lt;/h1&gt;&lt;hr&gt;'</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>cMessage +=
+  '&lt;h3&gt;Hi ' + hData[ 'user_name' ] + '. Your access code is ' +
+  (cAlias)-&gt;key + '&lt;/h3&gt;'</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>cMessage +=
+  '&lt;hr&gt;&lt;small&gt;' + 'This ticket was processed at ' + dtoc( date() )
+  + ' ' + time() + '&lt;/small&gt;'</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>cMessage +=
+  '&lt;/html&gt;'</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>. .. </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>It's
+only 5 lines where we add to a variable, but when there are more lines it
+becomes very cumbersome to work with.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Now
+we're going to create a function to code the HTML in a cleaner way that makes
+the code easier to read. For this, we'll use the preprocessor:</span></p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>                VIEW TO &lt;cHtml&gt; [PARAMS …]</p>
+
+<p class=MsoNoSpacing>.. .</p>
+
+<p class=MsoNoSpacing>                ENDTEXT</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>First,
+we'll add an include at the top of the code for the header file&nbsp;hix.ch:</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>#include
+‘hix.ch’ </span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Then
+in the section where we define the screen, we'll create a
+variable&nbsp;cHtml&nbsp;that will receive the content from the
+function&nbsp;MyView(hData, cAlias). As you can see, we're passing the
+variables we already have:&nbsp;hData&nbsp;and&nbsp;cAlias.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>cHtml
+:= MyView( hData, cAlias )</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>The&nbsp;MyView()&nbsp;function
+will look like this:</span></p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=566 valign=top style='width:424.7pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>FUNCTION
+  MyView( hData, cAlias ) </span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>     local
+  cHtml := ''</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>     </span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>     VIEW TO
+  cHtml PARAMS hData, cAlias</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>&lt;html&gt;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>     &lt;h1&gt;Request
+  processed !&lt;/h1&gt;&lt;hr&gt;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>     &lt;h3&gt;Hi
+  &lt;$ hData[ 'user_name' ] $&gt;. Your access code is &lt;$ (cAlias)-&gt;key
+  $&gt;&lt;/h3&gt;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>     &lt;hr&gt;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>     &lt;small&gt;This
+  ticket was processed at  &lt;$ dtoc( date() ) + ' ' + time()
+  $&gt;&lt;/small&gt;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>&lt;/html&gt;         </span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>     ENDTEXT</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+  <p class=MsoNoSpacing><span style='font-family:"Courier New"'>RETU cHtml</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt;
+font-family:"Calibri Light",sans-serif'>You can see how inside
+the&nbsp;VIEW/ENDTEXT&nbsp;we can write more readable code. The only thing to
+remember is that to use variables inside&nbsp;VIEW/ENDTEXT, we need to use the
+tags&nbsp;&lt;$ ... $&gt;.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt;
+font-family:"Calibri Light",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt;
+font-family:"Calibri Light",sans-serif'>This will make Harbour process the
+variable content.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt;
+font-family:"Calibri Light",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt;
+font-family:"Calibri Light",sans-serif'>The result is the same as what we had
+before, but now we need to understand one thing:</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Calibri Light",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Calibri Light",sans-serif'>We
+have a LOGIC process -- CONTROLLER<br>
+We have a RENDERING process – VIEW</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Calibri Light",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Calibri Light",sans-serif'>And
+what's sometimes so hard to understand is simply this:</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Calibri Light",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Calibri Light",sans-serif'>Controller:
+Collects data, manipulates it, and prepares the response<br>
+View: Renders the screen with data from the controller</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Calibri Light",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Calibri Light",sans-serif'>Now
+we're ready to make our screens look pretty... </span><span style='font-size:
+14.0pt;font-family:"Segoe UI Emoji",sans-serif'>&#128521;</span></p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:14.0pt'>&nbsp;</span></b></p>
+
+</div>
+
+</body>
+
+</html>

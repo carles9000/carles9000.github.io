@@ -1,0 +1,371 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	letter-spacing:.2pt;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=ES link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse'>
+ <tr style='height:2.0cm'>
+  <td width=415 style='width:311.6pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:2.0cm'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=736
+   style='width:552.3pt;border-collapse:collapse'>
+   <tr>
+    <td width=721 style='width:540.5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='text-align:justify;line-height:106%'><a
+    name="_Hlk214033306"><b><span style='font-size:22.0pt;line-height:106%'>Ticket
+    Project (VI) – Load Testing</span></b></a></p>
+    </td>
+    <td width=16 style='width:11.8pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal style='text-align:justify;line-height:106%'><b><span
+    style='font-size:18.0pt;line-height:106%'>&nbsp;</span></b></p>
+    </td>
+   </tr>
+  </table>
+  </td>
+  <td width=151 style='width:113.1pt;border:none;border-bottom:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:2.0cm'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:106%'><b><span
+  style='font-size:18.0pt;line-height:106%'><img width=84 height=51
+  src="../../es/htm/que_es_ut_archivos/image001.png"></span></b></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+display:none;letter-spacing:0pt'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="99%"
+ style='width:99.48%;border-collapse:collapse'>
+ <tr style='height:13.7pt'>
+  <td width=416 style='width:11.0cm;padding:.7pt 4.3pt .7pt 0cm;height:13.7pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:106%'><span
+  style='font-size:16.0pt;line-height:106%'>&nbsp;</span></p>
+  </td>
+  <td width=148 style='width:111.15pt;padding:.7pt 4.3pt .7pt 0cm;height:13.7pt'>
+  <p class=MsoNormal align=right style='text-align:right;line-height:106%'>Autor:
+  Carles Aubia</p>
+  <p class=MsoNormal align=right style='text-align:right;line-height:106%'>Fecha
+  Rev: 14/11/2025</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:14.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:14.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>This
+will be the last entry, but it's one of the most important in order to
+understand the power we have with HIX when creating a website/web service.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Alright,
+in this chapter we're gonna talk about load and performance testing for our
+Ticket project. We need to make sure our system can handle traffic spikes when
+multiple users hit it at once. This'll be more about concepts than code, but I
+think it's worth spending 10 minutes to read through it.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Our
+system has to handle situations where more than one user might request a ticket
+at the exact same millisecond. We're not just looking at how many users are
+making requests, but whether the system will crash if they all hit it
+simultaneously.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>For
+this test, we're gonna run 100 requests with 5 concurrent users. What does that
+mean?</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>It
+means we're simulating how your website behaves when several people use it at
+the same time. Even though 5 users might not sound like much, we're talking
+about users processing in the same millisecond - not just connecting at
+different times.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt'>What are we simulating?</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Think
+of your website like a movie theater ticket counter:</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:14.0pt'>Request</span></b><span
+style='font-size:14.0pt'>: Like someone in line saying &quot;I want a
+ticket&quot; - it's asking your server to do something</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:14.0pt'>100 Requests</span></b><span
+style='font-size:14.0pt'>: Total number of &quot;tickets&quot; we're trying to
+sell in this test</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:14.0pt'>User</span></b><span
+style='font-size:14.0pt'>: One person in line</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:14.0pt'>5 Concurrent Users</span></b><span
+style='font-size:14.0pt'>: This is the key part - 5 people all asking for
+things at the same time</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify'><span
+style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt'>The Goal</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>We're
+testing:</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:14.0pt'>Speed</span></b><span
+style='font-size:14.0pt'>: How fast does the site handle each request with 5
+users hammering it?</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:14.0pt'>Stability</span></b><span
+style='font-size:14.0pt'>: Does it crash or throw errors under pressure?</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b><span style='font-size:14.0pt'>Data Handling</span></b><span
+style='font-size:14.0pt'>: When 5 people are reading/writing data
+simultaneously, does our ticket.dbf file get corrupted? The system should
+handle this cleanly.</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>As you've seen, when we issue a
+ticket we add and lock a record. The TRlock() function already loops if the
+record is locked.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt'>The Results</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>I
+used ApacheBench for this test. The results are pretty impressive:</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-family:"Courier New"'>Concurrency
+Level:      5</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-family:"Courier New"'>Time
+taken for tests:   2.253 seconds</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-family:"Courier New"'>Complete
+requests:      100</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-family:"Courier New"'>Failed
+requests:        0</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-family:"Courier New"'>Requests
+per second:    44.38 [#/sec] (mean)</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-family:"Courier New"'>Time
+per request:       22.532 [ms] (mean, across all concurrent requests)</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>The
+key things: no failures, and each ticket process takes about 22ms. That means
+our system could handle about 44 requests per second!</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Remember
+- these 22ms aren't for some simple &quot;Hello World&quot; - this includes
+table I/O, HTML generation, the whole process.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Here's
+something interesting: when I tested with 100 requests but only 1 user, the
+system took 29ms. The concurrent test was faster because Harbour handles
+multiple threads efficiently - about 24% faster with concurrency!</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt'>The Basic Flow</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>User clicks &quot;Get Ticket&quot;
+in browser</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>Browser sends HTTP POST to our web
+service API</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>Load balancer routes to available
+application server</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>Server calls proc_ticket(...)</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>System handles tables - checks
+existence, appends data, updates, commits</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>Process completes</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>Server generates HTML/JSON
+response</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>Browser receives response</span></p>
+
+<p class=MsoNoSpacing style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:14.0pt'>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt'>Interface updates with ticket
+confirmation</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><b><span style='font-size:
+14.0pt'>My Take</span></b></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>I've
+been programming for web environments for years. For the past 5 years we've
+been building tools to bring Harbour to the web. We have a Harbour server
+that's packed with features and honestly, I think it can handle 90% of the
+applications you want to build.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>We
+don't need weird workarounds or other languages (PHP, Python, etc.), and we
+don't have to process our DBF files differently from our beloved RDD system.
+Our Harbour setup handles everything perfectly and lets us keep enjoying what
+we love.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>Sure,
+web development isn't easy, but with AI tools now helping with front-end
+design, and with the backend/server configuration already solved for us...
+we're in a pretty good spot.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>I
+think that with these explanations, you can see that with a &quot;start&quot;
+the change of environment begins very easily.</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing style='text-align:justify'><span style='font-size:14.0pt'>That’s
+all </span><span style='font-size:14.0pt;font-family:"Segoe UI Emoji",sans-serif'>&#128522;</span></p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:14.0pt'>&nbsp;</span></b></p>
+
+</div>
+
+</body>
+
+</html>
